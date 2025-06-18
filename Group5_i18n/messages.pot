@@ -208,4 +208,3 @@ msgstr ""
 #: templates/index.html:230
 msgid "Study at your own pace, anytime and anywhere"
 msgstr ""
-
