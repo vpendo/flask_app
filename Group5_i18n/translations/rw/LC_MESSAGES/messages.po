@@ -22,6 +22,7 @@ msgstr ""
 msgid "About - AfricaLearn"
 msgstr "Kuri - AfricaLearn"
 
+
 #: templates/about.html:195 templates/courses.html:205 templates/index.html:194
 msgid "AfricaLearn"
 msgstr "AfricaLearn"
