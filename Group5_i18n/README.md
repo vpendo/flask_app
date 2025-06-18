@@ -111,6 +111,11 @@ http://localhost:5000
 ## Contributing
 
 1. Marvelous Nelson - m.nelson@alustudent.com
+2. Vestine Pendo - v.pendo@alustudent.com
+3. Thierry Maridadi - t.maridadi@alustudent.com
+4. Lenine Ngenzi - l.ngenzi@alustudent.com
+5. Amelie Umutoni - a.umutoni@alustudent.com
+6. Plamedi Mayala - p.mayala@alustudent.com
 
 ## License
 
