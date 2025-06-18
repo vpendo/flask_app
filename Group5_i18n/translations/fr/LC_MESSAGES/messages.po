@@ -1,0 +1,245 @@
+# French translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-18 17:51+0200\n"
+"PO-Revision-Date: 2025-06-18 17:25+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/about.html:6
+msgid "About - AfricaLearn"
+msgstr "À propos - AfricaLearn"
+
+#: templates/about.html:195 templates/courses.html:205 templates/index.html:194
+msgid "AfricaLearn"
+msgstr "AfricaLearn"
+
+#: templates/about.html:197 templates/about.html:252 templates/courses.html:207
+#: templates/courses.html:278 templates/index.html:196 templates/index.html:245
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/about.html:198 templates/about.html:253 templates/courses.html:208
+#: templates/courses.html:279 templates/index.html:197 templates/index.html:246
+msgid "Courses"
+msgstr "Cours"
+
+#: templates/about.html:199 templates/about.html:254 templates/courses.html:209
+#: templates/courses.html:280 templates/index.html:198 templates/index.html:247
+msgid "About"
+msgstr "À propos"
+
+#: templates/about.html:215
+msgid "About AfricaLearn"
+msgstr "À propos d'AfricaLearn"
+
+#: templates/about.html:216
+msgid "Empowering language learners across Africa through innovative education"
+msgstr "Autonomiser les apprenants de langues à travers l'Afrique grâce à une éducation innovante"
+
+#: templates/about.html:221
+msgid "Our Story"
+msgstr "Notre Histoire"
+
+#: templates/about.html:222
+msgid "Founded in 2024, AfricaLearn emerged from a vision to bridge language barriers across Africa. We believe that language learning should be accessible, engaging, and culturally relevant."
+msgstr "Fondée en 2024, AfricaLearn est née d'une vision de combler les barrières linguistiques à travers l'Afrique. Nous croyons que l'apprentissage des langues devrait être accessible, engageant et culturellement pertinent."
+
+#: templates/about.html:226
+msgid "Our Approach"
+msgstr "Notre Approche"
+
+#: templates/about.html:227
+msgid "We combine traditional teaching methods with modern technology to create an immersive learning experience. Our courses are designed by native speakers and language experts."
+msgstr "Nous combinons les méthodes d'enseignement traditionnelles avec la technologie moderne pour créer une expérience d'apprentissage immersive. Nos cours sont conçus par des locuteurs natifs et des experts en langues."
+
+#: templates/about.html:231
+msgid "Our Impact"
+msgstr "Notre Impact"
+
+#: templates/about.html:232
+msgid "Thousands of students have improved their language skills through our platform. We've helped professionals, students, and language enthusiasts achieve their goals."
+msgstr "Des milliers d'étudiants ont amélioré leurs compétences linguistiques grâce à notre plateforme. Nous avons aidé des professionnels, des étudiants et des passionnés de langues à atteindre leurs objectifs."
+
+#: templates/about.html:237
+msgid "Our Mission"
+msgstr "Notre Mission"
+
+#: templates/about.html:238
+msgid "To make language learning accessible to everyone in Africa, fostering cultural understanding and creating opportunities for personal and professional growth."
+msgstr "Rendre l'apprentissage des langues accessible à tous en Afrique, favoriser la compréhension culturelle et créer des opportunités de croissance personnelle et professionnelle."
+
+#: templates/about.html:245 templates/courses.html:271 templates/index.html:238
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: templates/about.html:246 templates/courses.html:272 templates/index.html:239
+msgid "Email: info@africalearn.com"
+msgstr "Email : info@africalearn.com"
+
+#: templates/about.html:247 templates/courses.html:273 templates/index.html:240
+msgid "Phone: +250 788 123 456"
+msgstr "Téléphone : +250 788 123 456"
+
+#: templates/about.html:248 templates/courses.html:274 templates/index.html:241
+msgid "Address: Kigali, Rwanda"
+msgstr "Adresse : Kigali, Rwanda"
+
+#: templates/about.html:251 templates/courses.html:277 templates/index.html:244
+msgid "Quick Links"
+msgstr "Liens Rapides"
+
+#: templates/about.html:257 templates/courses.html:283 templates/index.html:250
+msgid "Follow Us"
+msgstr "Suivez-nous"
+
+#: templates/about.html:267 templates/courses.html:293 templates/index.html:260
+msgid "All rights reserved."
+msgstr "Tous droits réservés."
+
+#: templates/courses.html:6
+msgid "Courses - AfricaLearn"
+msgstr "Cours - AfricaLearn"
+
+#: templates/courses.html:225
+msgid "Our Language Courses"
+msgstr "Nos Cours de Langues"
+
+#: templates/courses.html:226
+msgid "Choose from our wide range of language courses"
+msgstr "Choisissez parmi notre large gamme de cours de langues"
+
+#: templates/courses.html:233
+msgid "English Language"
+msgstr "Langue Anglaise"
+
+#: templates/courses.html:234
+msgid "Master English with our comprehensive course"
+msgstr "Maîtrisez l'anglais avec notre cours complet"
+
+#: templates/courses.html:235 templates/courses.html:244
+#: templates/courses.html:253 templates/courses.html:262
+msgid "Enroll Now"
+msgstr "S'inscrire Maintenant"
+
+#: templates/courses.html:242
+msgid "French Language"
+msgstr "Langue Française"
+
+#: templates/courses.html:243
+msgid "Learn French from basic to advanced level"
+msgstr "Apprenez le français du niveau débutant au niveau avancé"
+
+#: templates/courses.html:251
+msgid "Kinyarwanda Language"
+msgstr "Langue Kinyarwanda"
+
+#: templates/courses.html:252
+msgid "Discover the beauty of Kinyarwanda"
+msgstr "Découvrez la beauté du Kinyarwanda"
+
+#: templates/courses.html:260
+msgid "Swahili Language"
+msgstr "Langue Swahili"
+
+#: templates/courses.html:261
+msgid "Learn Swahili for better communication"
+msgstr "Apprenez le Swahili pour une meilleure communication"
+
+#: templates/index.html:6
+msgid "AfricaLearn - Language Learning Platform"
+msgstr "AfricaLearn - Plateforme d'Apprentissage des Langues"
+
+#: templates/index.html:214
+msgid "Learn Languages with Confidence"
+msgstr "Apprenez les Langues avec Confiance"
+
+#: templates/index.html:215
+msgid "Master new languages through interactive lessons and real-world practice"
+msgstr "Maîtrisez de nouvelles langues grâce à des leçons interactives et une pratique réelle"
+
+#: templates/index.html:216
+msgid "Get Started"
+msgstr "Commencer"
+
+#: templates/index.html:221
+msgid "Interactive Learning"
+msgstr "Apprentissage Interactif"
+
+#: templates/index.html:222
+msgid "Engage with dynamic lessons and real-time feedback"
+msgstr "Participez à des leçons dynamiques avec des retours en temps réel"
+
+#: templates/index.html:225
+msgid "Native Speakers"
+msgstr "Locuteurs Natifs"
+
+#~ msgid "Simple i18n Demo"
+#~ msgstr ""
+
+#~ msgid "Welcome to our Internationalized App!"
+#~ msgstr ""
+
+#~ msgid "Current time:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is a simple demonstration of "
+#~ "internationalization and localization in "
+#~ "Flask."
+#~ msgstr ""
+
+#~ msgid "Current language:"
+#~ msgstr ""
+
+#~ msgid "About - Kinyabridge"
+#~ msgstr ""
+
+#~ msgid "Kinyabridge"
+#~ msgstr ""
+
+#~ msgid "About Kinyabridge"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Empowering language learners across East "
+#~ "Africa through innovative education"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Founded in 2024, Kinyabridge emerged "
+#~ "from a vision to bridge language "
+#~ "barriers in East Africa. We believe "
+#~ "that language learning should be "
+#~ "accessible, engaging, and culturally relevant."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To make language learning accessible to"
+#~ " everyone in East Africa, fostering "
+#~ "cultural understanding and creating "
+#~ "opportunities for personal and professional"
+#~ " growth."
+#~ msgstr ""
+
+#~ msgid "Email: info@kinyabridge.com"
+#~ msgstr ""
+
+#~ msgid "Courses - Kinyabridge"
+#~ msgstr ""
+
+#~ msgid "Kinyabridge - Language Learning Platform"
+#~ msgstr ""
+

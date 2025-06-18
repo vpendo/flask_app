@@ -1,0 +1,245 @@
+# Swahili translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-18 17:51+0200\n"
+"PO-Revision-Date: 2025-06-18 17:25+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sw\n"
+"Language-Team: sw <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/about.html:6
+msgid "About - AfricaLearn"
+msgstr "Kuhusu - AfricaLearn"
+
+#: templates/about.html:195 templates/courses.html:205 templates/index.html:194
+msgid "AfricaLearn"
+msgstr "AfricaLearn"
+
+#: templates/about.html:197 templates/about.html:252 templates/courses.html:207
+#: templates/courses.html:278 templates/index.html:196 templates/index.html:245
+msgid "Home"
+msgstr "Nyumbani"
+
+#: templates/about.html:198 templates/about.html:253 templates/courses.html:208
+#: templates/courses.html:279 templates/index.html:197 templates/index.html:246
+msgid "Courses"
+msgstr "Kozi"
+
+#: templates/about.html:199 templates/about.html:254 templates/courses.html:209
+#: templates/courses.html:280 templates/index.html:198 templates/index.html:247
+msgid "About"
+msgstr "Kuhusu"
+
+#: templates/about.html:215
+msgid "About AfricaLearn"
+msgstr "Kuhusu AfricaLearn"
+
+#: templates/about.html:216
+msgid "Empowering language learners across Africa through innovative education"
+msgstr "Kuwawezesha wanafunzi wa lugha kote Afrika kupitia elimu ya kisasa"
+
+#: templates/about.html:221
+msgid "Our Story"
+msgstr "Hadithi Yetu"
+
+#: templates/about.html:222
+msgid "Founded in 2024, AfricaLearn emerged from a vision to bridge language barriers across Africa. We believe that language learning should be accessible, engaging, and culturally relevant."
+msgstr "Iliyoundwa mwaka 2024, AfricaLearn ilitoka kwa maono ya kuvunja vizuizi vya lugha kote Afrika. Tunaamini kwamba kujifunza lugha kunapaswa kuwa rahisi, kuvutia, na kuhusiana na tamaduni."
+
+#: templates/about.html:226
+msgid "Our Approach"
+msgstr "Mbinu Yetu"
+
+#: templates/about.html:227
+msgid "We combine traditional teaching methods with modern technology to create an immersive learning experience. Our courses are designed by native speakers and language experts."
+msgstr "Tunachanganya mbinu za kawaida za kufundisha na teknolojia ya kisasa ili kuunda uzoefu wa kujifunza wa kina. Kozi zetu zimetengenezwa na wazungumzaji wa asili na wataalamu wa lugha."
+
+#: templates/about.html:231
+msgid "Our Impact"
+msgstr "Athari Yetu"
+
+#: templates/about.html:232
+msgid "Thousands of students have improved their language skills through our platform. We've helped professionals, students, and language enthusiasts achieve their goals."
+msgstr "Maelfu ya wanafunzi wameboresha ujuzi wao wa lugha kupitia jukwaa letu. Tumewasaidia wataalamu, wanafunzi, na wapenzi wa lugha kufikia malengo yao."
+
+#: templates/about.html:237
+msgid "Our Mission"
+msgstr "Dhamira Yetu"
+
+#: templates/about.html:238
+msgid "To make language learning accessible to everyone in Africa, fostering cultural understanding and creating opportunities for personal and professional growth."
+msgstr "Kufanya kujifunza lugha kuwa rahisi kwa kila mtu barani Afrika, kukuza uelewa wa kitamaduni na kuunda fursa za ukuaji wa kibinafsi na kitaaluma."
+
+#: templates/about.html:245 templates/courses.html:271 templates/index.html:238
+msgid "Contact Us"
+msgstr "Wasiliana Nasi"
+
+#: templates/about.html:246 templates/courses.html:272 templates/index.html:239
+msgid "Email: info@africalearn.com"
+msgstr "Barua pepe: info@africalearn.com"
+
+#: templates/about.html:247 templates/courses.html:273 templates/index.html:240
+msgid "Phone: +250 788 123 456"
+msgstr "Simu: +250 788 123 456"
+
+#: templates/about.html:248 templates/courses.html:274 templates/index.html:241
+msgid "Address: Kigali, Rwanda"
+msgstr "Anwani: Kigali, Rwanda"
+
+#: templates/about.html:251 templates/courses.html:277 templates/index.html:244
+msgid "Quick Links"
+msgstr "Viungo vya Haraka"
+
+#: templates/about.html:257 templates/courses.html:283 templates/index.html:250
+msgid "Follow Us"
+msgstr "Tufuate"
+
+#: templates/about.html:267 templates/courses.html:293 templates/index.html:260
+msgid "All rights reserved."
+msgstr "Haki zote zimehifadhiwa."
+
+#: templates/courses.html:6
+msgid "Courses - AfricaLearn"
+msgstr "Kozi - AfricaLearn"
+
+#: templates/courses.html:225
+msgid "Our Language Courses"
+msgstr "Kozi Zetu za Lugha"
+
+#: templates/courses.html:226
+msgid "Choose from our wide range of language courses"
+msgstr "Chagua kutoka kwa anuwai ya kozi zetu za lugha"
+
+#: templates/courses.html:233
+msgid "English Language"
+msgstr "Lugha ya Kiingereza"
+
+#: templates/courses.html:234
+msgid "Master English with our comprehensive course"
+msgstr "Jifunze Kiingereza kwa kina kupitia kozi yetu ya kina"
+
+#: templates/courses.html:235 templates/courses.html:244
+#: templates/courses.html:253 templates/courses.html:262
+msgid "Enroll Now"
+msgstr "Jisajili Sasa"
+
+#: templates/courses.html:242
+msgid "French Language"
+msgstr "Lugha ya Kifaransa"
+
+#: templates/courses.html:243
+msgid "Learn French from basic to advanced level"
+msgstr "Jifunze Kifaransa kutoka kwa kiwango cha msingi hadi cha juu"
+
+#: templates/courses.html:251
+msgid "Kinyarwanda Language"
+msgstr "Lugha ya Kinyarwanda"
+
+#: templates/courses.html:252
+msgid "Discover the beauty of Kinyarwanda"
+msgstr "Gundua uzuri wa Kinyarwanda"
+
+#: templates/courses.html:260
+msgid "Swahili Language"
+msgstr "Lugha ya Kiswahili"
+
+#: templates/courses.html:261
+msgid "Learn Swahili for better communication"
+msgstr "Jifunze Kiswahili kwa mawasiliano bora"
+
+#: templates/index.html:6
+msgid "AfricaLearn - Language Learning Platform"
+msgstr "AfricaLearn - Jukwaa la Kujifunza Lugha"
+
+#: templates/index.html:214
+msgid "Learn Languages with Confidence"
+msgstr "Jifunze Lugha kwa Ujasiri"
+
+#: templates/index.html:215
+msgid "Master new languages through interactive lessons and real-world practice"
+msgstr "Jifunze lugha mpya kupitia masomo ya kushirikiana na mazoezi ya ulimwengu wa kweli"
+
+#: templates/index.html:216
+msgid "Get Started"
+msgstr "Anza"
+
+#: templates/index.html:221
+msgid "Interactive Learning"
+msgstr "Kujifunza kwa Kushirikiana"
+
+#: templates/index.html:222
+msgid "Engage with dynamic lessons and real-time feedback"
+msgstr "Shiriki katika masomo ya nguvu na maoni ya wakati halisi"
+
+#: templates/index.html:225
+msgid "Native Speakers"
+msgstr "Wazungumzaji wa Asili"
+
+#~ msgid "Simple i18n Demo"
+#~ msgstr ""
+
+#~ msgid "Welcome to our Internationalized App!"
+#~ msgstr ""
+
+#~ msgid "Current time:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is a simple demonstration of "
+#~ "internationalization and localization in "
+#~ "Flask."
+#~ msgstr ""
+
+#~ msgid "Current language:"
+#~ msgstr ""
+
+#~ msgid "About - Kinyabridge"
+#~ msgstr ""
+
+#~ msgid "Kinyabridge"
+#~ msgstr ""
+
+#~ msgid "About Kinyabridge"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Empowering language learners across East "
+#~ "Africa through innovative education"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Founded in 2024, Kinyabridge emerged "
+#~ "from a vision to bridge language "
+#~ "barriers in East Africa. We believe "
+#~ "that language learning should be "
+#~ "accessible, engaging, and culturally relevant."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To make language learning accessible to"
+#~ " everyone in East Africa, fostering "
+#~ "cultural understanding and creating "
+#~ "opportunities for personal and professional"
+#~ " growth."
+#~ msgstr ""
+
+#~ msgid "Email: info@kinyabridge.com"
+#~ msgstr ""
+
+#~ msgid "Courses - Kinyabridge"
+#~ msgstr ""
+
+#~ msgid "Kinyabridge - Language Learning Platform"
+#~ msgstr ""
+

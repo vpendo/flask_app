@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="{{ g.locale }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('AfricaLearn - Language Learning Platform') }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            padding: 1rem 5%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        .language-selector {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .language-selector select {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .language-selector select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .main-content {
+            margin-top: 80px;
+            padding: 2rem 5%;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background-color: #ffffff;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            color: #666;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 3rem 5%;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-section h3 {
+            color: #3498db;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-section p {
+            color: #ecf0f1;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #3498db;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #34495e;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="logo">{{ _('AfricaLearn') }}</a>
+        <div class="nav-links">
+            <a href="/">{{ _('Home') }}</a>
+            <a href="/courses">{{ _('Courses') }}</a>
+            <a href="/about">{{ _('About') }}</a>
+            <div class="language-selector">
+                <form action="{{ url_for('set_language') }}" method="post" id="language-form">
+                    <select name="language" onchange="this.form.submit()" style="width: 120px;">
+                        <option value="en" {% if g.locale == 'en' %}selected{% endif %}>English</option>
+                        <option value="fr" {% if g.locale == 'fr' %}selected{% endif %}>Français</option>
+                        <option value="rw" {% if g.locale == 'rw' %}selected{% endif %}>Kinyarwanda</option>
+                        <option value="sw" {% if g.locale == 'sw' %}selected{% endif %}>Kiswahili</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <section class="hero">
+            <h1>{{ _('Learn Languages with Confidence') }}</h1>
+            <p>{{ _('Master new languages through interactive lessons and real-world practice') }}</p>
+            <a href="/courses" class="cta-button">{{ _('Get Started') }}</a>
+        </section>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>{{ _('Interactive Learning') }}</h3>
+                <p>{{ _('Engage with dynamic lessons and real-time feedback') }}</p>
+            </div>
+            <div class="feature-card">
+                <h3>{{ _('Native Speakers') }}</h3>
+                <p>{{ _('Learn from experienced native language teachers') }}</p>
+            </div>
+            <div class="feature-card">
+                <h3>{{ _('Flexible Schedule') }}</h3>
+                <p>{{ _('Study at your own pace, anytime and anywhere') }}</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>{{ _('Contact Us') }}</h3>
+                <p>{{ _('Email: info@africalearn.com') }}</p>
+                <p>{{ _('Phone: +250 788 123 456') }}</p>
+                <p>{{ _('Address: Kigali, Rwanda') }}</p>
+            </div>
+            <div class="footer-section">
+                <h3>{{ _('Quick Links') }}</h3>
+                <p><a href="/" style="color: #ecf0f1; text-decoration: none;">{{ _('Home') }}</a></p>
+                <p><a href="/courses" style="color: #ecf0f1; text-decoration: none;">{{ _('Courses') }}</a></p>
+                <p><a href="/about" style="color: #ecf0f1; text-decoration: none;">{{ _('About') }}</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>{{ _('Follow Us') }}</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AfricaLearn. {{ _('All rights reserved.') }}</p>
+        </div>
+    </footer>
+</body>
+</html> 
