@@ -105,12 +105,12 @@ http://localhost:5000
 
 ## Project Structure
 
-```
+
 
 
 ## Contributing
 
-1.
+1. Marvelous Nelson - m.nelson@alustudent.com
 
 ## License
 
