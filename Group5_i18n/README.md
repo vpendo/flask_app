@@ -106,26 +106,11 @@ http://localhost:5000
 ## Project Structure
 
 ```
-flask_app/Group5_i18n/
-├── app.py                 # Main application file
-├── babel.cfg             # Babel configuration
-├── requirements.txt      # Python dependencies
-├── translations/         # Translation files
-│   ├── fr/              # French translations
-│   ├── rw/              # Kinyarwanda translations
-│   └── sw/              # Swahili translations
-└── templates/           # HTML templates
-    ├── index.html       # Home page
-    ├── courses.html     # Courses page
-    └── about.html       # About page
-```
+
 
 ## Contributing
 
-1. Fork the repository
-2. Create a new branch for your feature
-3. Make your changes
-4. Submit a pull request
+1.
 
 ## License
 
