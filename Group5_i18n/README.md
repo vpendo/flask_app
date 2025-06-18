@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository (if using Git):
 ```bash
-git clone <repository-url>
+git clone <https://github.com/vpendo/flask_app.git>
 cd flask_app/Group5_i18n
 ```
 
